@@ -2,8 +2,8 @@ class Test
     attr_reader :pattern, :message
   
     def initialize
-      @pattern = /.test2/
-      @message = 'its there'
+      @pattern = /\. /
+      @message = 'There should not be an empty space after calling a class name'
     end
   end
   
