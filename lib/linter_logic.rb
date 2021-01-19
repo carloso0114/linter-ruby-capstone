@@ -5,7 +5,7 @@ class Check
   attr_reader :checkers, :line_errors
 
   def initialize
-    @checkers = [Test.new]
+    @checkers = [Test1.new, Test2.new,Test3.new,Test4.new]
     @line_number = 0
     @line_errors = false
   end
