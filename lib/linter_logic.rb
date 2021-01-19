@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'strscan'
 require_relative '../lib/error_checkers'
 

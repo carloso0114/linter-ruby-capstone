@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # This checks spaces after the . selector
 class Test1
   attr_reader :pattern, :message
