@@ -1,8 +1,25 @@
-.test1 {
- color: red;
+. h1-class {
+  color: red;
 } 
 
-#test2 {
-    color: red;
-   } 
+# p-id {
+  color: red;
+}
+
+.h1-class{
+  color: red;
+}        
+
+#p-id{
+  color: red;
+}
+
+.h1-class { }  
+
+#p-id {          }  
+
+
+
+
+
 
