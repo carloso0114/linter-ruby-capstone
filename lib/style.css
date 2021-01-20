@@ -18,7 +18,13 @@
 
 #p-id {          }  
 
+. h1-class{
+  color: red;
+} 
 
+# h1-class{
+  color: red;
+} 
 
 
 
