@@ -64,16 +64,16 @@ class Test7
 
   def initialize
     @pattern = /\. [a-zA-Z0-9-]+\{/
-    @message = "Test7 There should be an empty space before the opening bracket and no spaces before the '.' selector name"
+    @message = 'Test7 There should be an empty space before the opening bracket, no spaces before the selector name'
   end
 end
 
-# This checks for spaces before the selector name and no space after the·# selector name.
+# This checks for spaces before the selector name and no space after the # selector name.
 class Test8
   attr_reader :pattern, :message
 
   def initialize
     @pattern = /\# [a-zA-Z0-9-]+\{/
-    @message = "Test8 There should be an empty space before the opening bracket and no spaces before the '#' selector name"
+    @message = 'There should be an empty space before the opening bracket, no spaces before the selector name'
   end
 end
