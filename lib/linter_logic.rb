@@ -37,6 +37,6 @@ class Check
   end
 
   def error_message(buffer, msg)
-    "Warning in Line #{@line_number}, Position #{buffer.pos}: '#{buffer.matched}' => #{msg}"
+    "Warning in Line #{@line_number}, Position #{buffer.pos}: '#{buffer.matched}'. #{msg}"
   end
 end

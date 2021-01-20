@@ -11,4 +11,4 @@ file = 'lib/style.css'
 f = File.open(file, 'r+')
 new_check = Check.new
 new_check.start(f)
-puts 'No errors were detected in your css file' unless new_check.line_errors
+puts 'No errors were detected in your file' unless new_check.line_errors
