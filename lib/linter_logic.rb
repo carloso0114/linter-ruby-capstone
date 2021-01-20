@@ -1,14 +1,11 @@
-# frozen_string_literal: true
-
 require 'strscan'
 require_relative '../lib/error_checkers'
 
-# Initialize all the tests.
 class Check
   attr_reader :checkers, :line_errors
 
   def initialize
-    @checkers = [Test1.new, Test2.new, Test3.new, Test4.new, Test5.new, Test6.new]
+    @checkers = [Test1.new, Test2.new,Test3.new,Test4.new]
     @line_number = 0
     @line_errors = false
   end
