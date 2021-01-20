@@ -8,7 +8,14 @@
 - Ruby
 
 ## How to run it
-- Copy or move your stylesheet file inside "/lib" folder with the name of style.css and run the css_lintern.rb command from bin folder.
+1. Download the project.
+-Click on the green button that says "Code", on the upper right side of the project frame and select Download ZIP
+2. Go to the directory where you downloaded the ZIP file and open it. Extract its contents to any directory you want in your system.
+3. Copy or move your stylesheet file inside "/lib" folder with the name of style.css.
+4. Open your system terminal in the same directory where you extract the files.
+5. Run the program with ruby ./bin/css_lintern.rb
+6. Enjoy
+
 
 ## Authors
 **Carlos Ospina**
