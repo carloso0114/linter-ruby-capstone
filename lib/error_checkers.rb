@@ -57,23 +57,3 @@ class Test6
     @message = 'Test6 There is nothing inside the selector brackets'
   end
 end
-
-# This checks for spaces before the selector name and no space after the selector name.
-class Test7
-  attr_reader :pattern, :message
-
-  def initialize
-    @pattern = /\. [a-zA-Z0-9-]+\{/
-    @message = "Test7 There should be an empty space before the opening bracket and no spaces before the '.' selector name"
-  end
-end
-
-# This checks for spaces before the selector name and no space after the·# selector name.
-class Test8
-  attr_reader :pattern, :message
-
-  def initialize
-    @pattern = /\# [a-zA-Z0-9-]+\{/
-    @message = "Test8 There should be an empty space before the opening bracket and no spaces before the '#' selector name"
-  end
-end
